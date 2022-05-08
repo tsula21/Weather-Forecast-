@@ -1,0 +1,8 @@
+<svg id="menu" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <circle id="Oval" cx="19" cy="19" r="19" fill="#fff"/>
+  <g id="Icon" transform="translate(11 13)">
+    <path id="Path" d="M0,.429H16" transform="translate(0 5.571)" fill="none" stroke="#1e2022" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path-2" data-name="Path" d="M0,.429H16" transform="translate(0 0.429)" fill="none" stroke="#1e2022" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path-3" data-name="Path" d="M0,.429H16" transform="translate(0 10.714)" fill="none" stroke="#1e2022" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

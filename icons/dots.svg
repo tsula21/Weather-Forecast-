@@ -1,0 +1,8 @@
+<svg id="dots" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <circle id="Oval" cx="19" cy="19" r="19" fill="#fff"/>
+  <g id="Icon" transform="translate(18 12)">
+    <circle id="Oval-2" data-name="Oval" cx="0.875" cy="0.875" r="0.875" transform="translate(0 6.125)" fill="none" stroke="#1e2022" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <circle id="Oval-3" data-name="Oval" cx="0.875" cy="0.875" r="0.875" fill="none" stroke="#1e2022" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <circle id="Oval-4" data-name="Oval" cx="0.875" cy="0.875" r="0.875" transform="translate(0 12.25)" fill="none" stroke="#1e2022" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

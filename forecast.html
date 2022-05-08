@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="cover">
+        <div class="background">
+           
+            <div class="container">
+                <div class="header">
+                    <div class="topbar">
+                        <img src="./icons/menu.svg" alt="menu">
+                        <div class="current_place">
+                            <img class="loc" src="./icons/loc1 .svg" alt="">
+                            <div class="city">Gali</div>
+                        </div>
+                        
+                        <!-- <img src="./icons/settings.svg" alt=""> -->
+                        <img class="set" src="./icons/settings.svg" alt="">
+                    </div>
+                    <!-- <div class="current_date">17 Mon, July 2021</div> -->
+                    
+                    <div class="weather_icon">
+                        <div class="content">
+                            <div class="img">
+                                <img src="http://openweathermap.org/img/wn//10d@2x.png" alt="">
+                            </div>
+                            <div class="days">
+                                <div id="date" class="day">Mon</div>
+                                <div class="temperatue">23 °C / 26 °C</div>
+                                <div class="weather_type">
+                                    <div class="sun">Rainy</div>
+                                </div>
+                            </div>
+                            <div class="windy">
+                                <img src="./icons/menu/rain.svg" alt="">
+                                <h2>2 km/h</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="curr-weather">
+                        <h2>Sunny</h2>
+                    </div> -->
+                    <div class="features">
+                        <div class="details">
+                            <h2>Feels Like</h2>
+                            <h3 id="temp">27 °C</h3>
+                        </div>
+                        
+                        <div class="line"></div>
+                        <div class="details">
+                            <h2>Humidity</h2>
+                            <h3 id="humidity">27 %</h3>
+                        </div>
+                        <div class="line"></div>
+                        <div class="details">
+                            <h2>Wind Degree</h2>
+                            <h3 id="wind">27 km/h</h3>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <input class="text_box" type="text" placeholder="Search">
+                    </div>
+                    <div class="title">Weekly</div>
+                    <div class="forecast">
+                        <div class="overflow">
+                            
+                        </div>
+                    </div>
+                    <div class="menu_bar">
+                        <div class="icons">
+                            <img class="home" src="./icons/menu/active_home.svg" alt="">
+                            <a href="file:///C:/Users/user/Desktop/javascript/Forecast/forecast.html#"><img class="setting" src="./icons/menu/setting.svg" alt=""></a>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

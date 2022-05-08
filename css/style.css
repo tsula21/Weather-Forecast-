@@ -1,0 +1,290 @@
+ /* Chrome, Edge, and Safari */
+ *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #B632E9;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+.cover{
+    background-image: url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.background{
+    margin: 0 auto;
+    width: 414px;
+    background-color: #F9F9F9;
+    height: 100vh;
+    max-height: 713px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.container{
+    width: calc(100% - 28px);
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header{
+
+}
+
+.set{
+    opacity: 0%;
+    cursor: unset!important;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.topbar img{
+    cursor: pointer;
+}
+
+.topbar .city{
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.topbar a img{
+    opacity: 0%;
+    cursor: default;
+}
+
+.current_place{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+}
+
+.loc{
+    max-width: 15px;
+    margin-right: 8px;
+}
+
+.daily{
+    /* margin-right: 154px; */
+    color: #77838F;
+    cursor: pointer;
+}
+
+.weekly{
+    color: #B632E9;
+    cursor: pointer;
+}
+
+.current_date{
+    margin-top: 28px;
+    font-size: 14px;
+    color: #77838F;
+    margin-bottom: 30px;
+}
+
+.weather_icon{
+    
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.features h2{
+    letter-spacing: 0.3px;
+    color: #1E2022;
+    font-size: 14px;
+}
+
+.features h3{
+    margin-top: 15px;
+    color: #77838F;
+    font-size: 14px;
+}
+
+.details{
+    width: 87px;
+    max-width: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    width: 1.2px;
+    height: 42px;
+    opacity: 70%;
+    background: #d0d0d0;
+}
+
+.search{
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    border-radius: 24px;
+    background-color: #fff;
+    color: #000;
+    font-family: inherit;
+    font-size: 105%;
+    width: 80%;
+}
+
+.title{
+    color: #B632E9;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+}
+
+.forecast{
+    /* width: calc(100% - 28px);
+    margin: 0 auto; */
+}
+
+.overflow{
+    height: 238px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.space{
+    /* width: 369px; */
+    height: 120px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: -10px 10px 20px -20px;
+    margin-bottom: 10px;
+}
+
+.cont{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.space_top h2{
+    padding-top: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1E2022;
+}
+
+.space_mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first h3{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.first img{
+    margin-right: 12px;
+}
+
+.week_temp{
+    color: #77838F;
+    font-size: 14px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+}
+
+.menu_bar{
+
+}
+
+
+
+.menu_bar .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 63px;
+    background-color: #f9f9f9;
+}
+
+.menu_bar img{
+    cursor: pointer;
+    /* width: 18px;
+    height: 18px; */
+}
+
+.weather_icon{
+    width: 386px;
+    height: 109px;
+    background-color: #B632E9;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.weather_type, .day{
+    font-size: 14px;
+}
+
+.temperatue {
+    font-size: 18px;
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-evenly;
+}
+
+.windy{
+    display: flex;
+    align-items: center;
+}
+
+.windy img{
+    margin-right: 10px;
+}
+
+.windy h2{
+    font-size: 14px;
+}
+
+.sun{
+    text-transform: capitalize;
+}
