@@ -16,6 +16,7 @@
     background-image: url(../img/3.jpg);
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
 
 .background{
@@ -23,13 +24,11 @@
     width: 414px;
     background-color: #F9F9F9;
     height: 100vh;
-    max-height: 713px;
     font-family: 'Yantramanav', sans-serif;
 }
 
 .container{
     width: calc(100% - 28px);
-    height: 100vh;
     margin: 0 auto;
 }
 
@@ -165,7 +164,7 @@ input{
 }
 
 .overflow{
-    height: 238px;
+    height: 270px;
     overflow-y: auto;
     overflow-x: hidden;
 }
